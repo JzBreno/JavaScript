@@ -1,7 +1,3 @@
-Claro, criar um bom README para o seu repositório de estudos de JavaScript é essencial para ajudar outros desenvolvedores a entenderem o propósito do projeto e como eles podem contribuir ou se beneficiar dele. Aqui está um exemplo de como você pode estruturar seu README:
-
----
-
 # Repositório de Estudos de JavaScript
 
 Este repositório contém uma coleção de materiais e recursos para ajudar no estudo e prática de JavaScript. Se você é um iniciante procurando aprender JavaScript do zero ou um desenvolvedor experiente procurando aprimorar suas habilidades, este repositório pode ser útil para você.
