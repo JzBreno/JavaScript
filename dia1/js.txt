@@ -1,0 +1,35 @@
+-pode-se ir no cabeçalho ou no corpo da aplicação, depende do uso do seu site
+-podemos referenciar nosso codigo js dentro do script com a tag scr = "nomedoscript"
+- let para variaveis n comecam com numeros, nao colocar espaço, nao usar _, primeira letra minusxcula e segunda maiuscula corCarro
+- const para constantes
+
+TIPOS PRIMITIVOS 
+
+Primitivas
+number
+string
+boolean
+undefined
+null
+
+Referencial - objetos
+
+objects 
+let pen = {
+    itemName: 'pen',
+    itemPrice: 3,
+    itemAvailabre: true,
+    itemColor: 'red'
+}
+
+mudar propriedades:
+
+pen.itemColor = 'Blue'
+
+arrays []
+
+functions 
+
+function salStatus(){
+    console.log('Aproved')
+}
