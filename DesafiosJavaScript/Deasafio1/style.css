@@ -1,0 +1,60 @@
+h1 {
+    color: black;
+}
+.cabecalho{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.desafio1{
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    color: aliceblue;
+}
+
+
+
+header{
+    background:#098;
+    color: rgb(255, 179, 0);
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #098;
+}
+
+header a {
+    color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+}
+
+header ul{
+    padding: 0;
+    list-style:none;
+}
+
+header li{
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+header #desafio1{
+    float: left;
+}
+header #desafio1 h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background: #333;
+    color: #fff;
+}

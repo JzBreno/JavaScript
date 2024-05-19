@@ -6,3 +6,67 @@
 Criando desenvolvimento de Maquina Virtual js
 - Criar todos acima
 - Instalar web server Live Server 
+operacoes
+
++
+++ - incremento
+-- - decremento
++= 1
+driver > 10
+let speed = driver > 110 ? 'above' : 'bellow'
+
+and -> &&
+or -> ||
+not -> !
+
+operadores logicos com Strings 
+let corCliente = 'white'
+let corEstoque = 'Black'
+let corVendida = corCliente || corEstoque
+
+console.log(corVendida)
+
+
+if()
+ Else() - apresentação
+
+switch (){
+    case
+} 
+
+
+for(i = 1 ; i<=10 ;i++){
+    console.log('numero',i)
+}
+
+i = 1
+while (i <= 10){
+    console.log('numero while', i)
+    i++
+}
+
+
+i = 1
+
+do{
+    console.log('numero', i)
+    i++
+}while(i<=10)
+
+FOR IN LOOP:
+
+const myCar ={
+    model: 'BMW',
+    year: '2023',
+    
+}
+
+for (let i in myCar)
+    console.log(i)
+
+FOR OF LOOP(BUSCA APENAS OS VALORES)
+
+const friends = ['Marcos', 'Ana']
+
+for (let i of friends)
+    console.log(i, friends[i])
