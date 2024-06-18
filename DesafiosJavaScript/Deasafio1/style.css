@@ -17,11 +17,11 @@ h1 {
 
 
 header{
-    background:#098;
+    background:gray;
     color: rgb(255, 179, 0);
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #098;
+    border-bottom: gray;
 }
 
 header a {
@@ -57,4 +57,19 @@ footer {
     margin-top: 20px;
     background: #333;
     color: #fff;
+}
+
+input  {
+    text-align: center;
+}
+p{
+    font-size: 23px;
+}
+
+.Botao{
+    width: 150px;
+}
+
+body {
+    line-height: 23px;
 }

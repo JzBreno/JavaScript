@@ -2,34 +2,69 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Meu Site</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Expandido</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-            <div class="cabecalho">
-                <div class="desafio1">
-                    <h1>José Breno Sousa Jacauna</h1>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="https://www.instagram.com/jzbreno/"><Button><span id="butaoinsta"></span></Button></a></li>
-                        <li><a href="https://www.linkedin.com/in/jzbreno/"><button>Linkedin</button></a></li>
-                        <li><a href="https://github.com/JzBreno"><button>Github</button></a></li>
-                    </ul>
-                </nav>
+        <div class="cabecalho">
+            <div class="desafio1">
+                <h1>Portifólio online José Breno</h1>
             </div>
+            <nav>
+                <ul>
+                    <li><a href="https://www.instagram.com/jzbreno/"><button>Instagram</button></a></li>
+                    <li><a href="https://www.linkedin.com/in/jzbreno/"><button>LinkedIn</button></a></li>
+                    <li><a href="https://github.com/JzBreno"><button>Github</button></a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <h1>desenvolvedor python, java Script e Java</h1>
-    <h2 class="h2">Este é meu prototipo de JavaScript do curso do <span id="text"></span></h2>
-                <h3>me chamo Jose Breno, tenho <span id="yearsold"></span> anos e Atualmente <span id="work"></span> <br>
-                </h3>
+
+    <h1>Login</h1>
+    <form action="">
+
+            <label for="email">Email</label><br>
+            <input id="email" type="text" name="email"><br>
+
+            <label for="password">Senha</label><br>
+            <input id="password" type="password" nome="password"><br>
+            <label for="button"> Enviar</label><br>
+            <input class="Botao" type="button" nome="Enviar" onclick="salvarvalores()">
+            <p id ="mensagemErro" class="erro"></p>
+    </form>
+
+    <div>
+        <h2>Sobre Mim</h2>
+        <p>Me chamo Jose Breno, tenho <span id="yearsold"></span> anos e atualmente <span id="work"></span>.<br>
+                Resumo Curricular<br> <span id="resumo"></span></p>
+
+    </div>
+
+    <h2>Sessão de Exemplo de Uso de Midias em HTML</h2>
+    <section id="midia">
+        <h3>O KANNALHA _ Nego Doce (Clipe Oficial)</h3>
+        <audio controls>
+            <source src="O KANNALHA _ Nego Doce (Clipe Oficial) (64).mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio HTML5.
+        </audio>
+
+        <h3>Djonga  - CORRA pt. Paige (Clipe Oficial)</h3>
+        <video controls>
+            <source src="Djonga  - CORRA pt. Paige (Clipe Oficial).mp4" type="video/mp4">
+            Seu navegador não suporta vídeo HTML5.
+        </video>
+
+    </section>
+
     <footer>
-    <p>&copy; <span id="anoenome"></span>. Todos os direitos reservados.</p>
+        <p>&copy; <span id="anoenome"></span>. Todos os direitos reservados.</p>
     </footer>
+
     <script src="index.js"></script>
 </body>
+
 </html>
