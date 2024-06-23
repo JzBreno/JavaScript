@@ -1,0 +1,37 @@
+A propriedade CSS display é especificada usando valores de palavra-chave.
+
+/* valores pré-compostos */
+display: block;
+display: inline;
+display: inline-block;
+display: flex;
+display: inline-flex;
+display: grid;
+display: inline-grid;
+display: flow-root;
+
+/* geração de caixas */
+display: none;
+display: contents;
+
+/* sintaxe de dois valores */
+display: block flow;
+display: inline flow;
+display: inline flow-root;
+display: block flex;
+display: inline flex;
+display: block grid;
+display: inline grid;
+display: block flow-root;
+
+/* outros valores */
+display: table;
+display: table-row; /* todos os elementos da tabela têm um valor de exibição CSS equivalente */
+display: list-item;
+
+/* Valores globais */
+display: inherit;
+display: initial;
+display: revert;
+display: revert-layer;
+display: unset;

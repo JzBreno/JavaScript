@@ -1,0 +1,25 @@
+4. Flex Container
+4.1. Propriedades de um Flex Container
+justify-content
+Essa propriedade alinha os elementos filhos horizontalmente dentro do flex container.
+
+flex-start: Este é o valor padrão. Os elementos são alinhados à esquerda do flex container, um ao lado do outro.
+flex-end: Os elementos são alinhados à direita do flex container, um ao lado do outro.
+center: Os elementos são centralizados no flex container, um ao lado do outro.
+space-between: O primeiro elemento é alinhado à esquerda e o último à direita, com os elementos intermediários distribuídos com espaçamento igual entre eles.
+space-around: Cada elemento tem um espaçamento igual ao redor de si. Isso significa que o primeiro elemento terá um espaçamento maior à direita do que à esquerda, somando com o espaçamento à esquerda do segundo elemento.
+space-evenly: Resolve o "problema" do valor anterior. Os elementos têm um espaçamento igual em ambos os lados.
+align-items
+Essa propriedade alinha os elementos filhos verticalmente dentro do flex container.
+
+stretch: Este é o valor padrão. Os elementos são "esticados" para terem a mesma altura.
+flex-start: Os elementos são alinhados ao topo do flex container.
+flex-end: Os elementos são alinhados à base do flex container.
+center: Os elementos são centralizados verticalmente no flex container.
+baseline: Os elementos são alinhados com a linha base do conteúdo textual de cada um.
+flex-wrap
+Essa propriedade controla a quebra de linha dos elementos filhos dentro do flex container.
+
+nowrap: Este é o valor padrão. Os elementos são mantidos em uma única linha, mesmo que não haja espaço horizontal suficiente.
+wrap: Os elementos que não cabem mais na linha atual são movidos para a linha seguinte.
+wrap-reverse: Os elementos que não cabem mais na linha atual são movidos para a linha acima.
