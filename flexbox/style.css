@@ -8,10 +8,19 @@
 header{
     display: flex; 
     background-color: gray; 
-    flex-direction: column; 
     justify-content: center;
     align-items: center;
+
 }
+
+header div{
+    width: 95%;
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: space-between;
+}
+
 ul{
     display:flex;
     gap: 10px;

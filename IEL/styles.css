@@ -1,101 +1,82 @@
-html,
-body {
+*{
     margin: 0;
-    height: 100%;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: rgb(183, 103, 194);
+    border: 0%;
+    padding: 10px;
+    justify-content: center;
+    color: white;
 }
 
-.cabecalho {
-    width: 100%;
-
-    background-color: rgb(88, 12, 82);
-}
-
-.cabecalho2 {
-    background-color: rgb(110, 57, 121);
-}
-#pad{
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-    padding-left: 10%; 
-    padding-right: 10%; 
-}
-#DigitalCollege {
-    color: aliceblue;
+head div{
     text-align: center;
-
 }
 
-#DigitalCollege2 {
-    color: rgb(88, 12, 82);
-    text-align: center;
+#CorRoxa{
+    display: flex;
+    background-color: blueviolet;
+    padding: 100px;
+}
+
+main{
+    display: flex;
+    color: blueviolet;
+    padding: 30px;
+    justify-content: center;
     text-decoration: underline;
-    text-underline-offset: 30px;
-}
-
-#text {
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-    
-}
-#circulo {
-    background:rgb(110, 57, 121);
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 1220px;
-    left: 130px;
+    text-underline-offset: 15px;
     
 }
 
-#circulo2 {
-    background:rgb(110, 57, 121);
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 1220px;
-    left: 370px;
-    
-}
-
-#circulo3 {
-    background:rgb(110, 57, 121);
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 1220px;
-    left: 250px;
-    text-underline-offset: 30px;
-}
-
-#team1{
-    color: rgb(110, 57, 121);
-    position: absolute;
-    top: 1310px;
-    left: 150px;
-}
-
-#team2{
-    color: rgb(110, 57, 121);
-    position: absolute;
-    top: 1310px;
-    left: 270px;
-}
-
-#team3{
-    color: rgb(110, 57, 121);
-    position: absolute;
-    top: 1310px;
-    left: 390px;
-}
-
-#footer{
-    width: 100%;
-    height: 30;
-    background-color: rgb(88, 12, 82);
+.div-1{
+    color: blueviolet;
     text-align: center;
+}
+
+#Texto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.circles-container {
+    display: flex;
+    justify-content: space-around; /* ou space-between */
+    margin-top: 50px; /* Apenas para espaçamento visual */
+  }
+
+.agroup{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+
+}
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet; /* Cor de fundo do círculo */
+    border-radius: 50%; /* Torna o elemento um círculo */
+
+  }
+
+  .Teams-container{
+    display: flex;
+    justify-content: space-around; /* ou space-between */
+    margin-top: 50px; /* Apenas para espaçamento visual */
+  }
+
+.agroup-Teams{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.Team{
+    color: blueviolet;
 }
