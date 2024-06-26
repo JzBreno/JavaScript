@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header div{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+}
+ul{
+    display: flex;
+    gap: 16px;
+}
+
+main{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    height: 1200;
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.container div{
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    color: white;
+}
+
+
+.bloco1{
+ order: 1;
+}
+
+.bloco2{
+   order: 2;
+}
+
+.bloco3{
+   order: 3;
+}
+
+.bloco4{
+    order: 5;
+}
+
+.bloco5{
+    order: 4;
+ 
+}
