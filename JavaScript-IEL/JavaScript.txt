@@ -1,0 +1,59 @@
+1. JavaScript
+1.3. Lógica de Programação
+1. Lógica de Programação
+Lógica de programação é a base para o desenvolvimento de qualquer sistema computacional. Ela envolve o uso de um conjunto de regras e técnicas para resolver problemas através de algoritmos.
+
+2. Algoritmos
+Algoritmos são sequências finitas de instruções bem definidas e ordenadas que visam resolver um problema específico ou executar uma tarefa.
+
+2.1 Raciocínio Lógico
+O raciocínio lógico é essencial para a criação de algoritmos eficazes. Ele envolve a capacidade de analisar problemas, identificar soluções possíveis e implementá-las de forma sistemática.
+
+3. Variáveis
+Variáveis são utilizadas para armazenar dados temporariamente na memória do computador. Em JavaScript, uma variável pode ser declarada usando var, let ou const.
+
+ 
+let nome = "João"; // Variável que pode mudar const idade = 25; // Constante, valor imutável
+4. Constantes
+Constantes são similares às variáveis, mas seus valores não podem ser alterados após a atribuição inicial. Em JavaScript, usamos const para declarar constantes.
+
+ 
+const pi = 3.14159;
+5. Funções
+Funções são blocos de código reutilizáveis que executam uma tarefa específica. Elas podem receber parâmetros e retornar valores.
+
+ 
+function saudacao(nome) { return `Olá, ${nome}!`; } console.log(saudacao("Maria")); // Saída: Olá, Maria!
+6. Estruturas Condicionais
+Estruturas condicionais permitem que você execute diferentes blocos de código com base em determinadas condições.
+
+6.1 if/else
+A estrutura if/else é a mais comum para realizar verificações condicionais.
+
+ 
+let idade = 18; if (idade >= 18) { console.log("Você é maior de idade."); } else { console.log("Você é menor de idade."); }
+6.2 switch
+A estrutura switch é utilizada para realizar múltiplas verificações de igualdade de maneira mais organizada.
+
+ 
+let dia = 3; switch (dia) { case 1: console.log("Domingo"); break; case 2: console.log("Segunda-feira"); break; case 3: console.log("Terça-feira"); break; default: console.log("Dia inválido"); }
+7. Estruturas de Repetição
+Estruturas de repetição permitem executar um bloco de código múltiplas vezes.
+
+7.1 for
+A estrutura for é utilizada para repetir um bloco de código um número específico de vezes.
+
+ 
+for (let i = 0; i < 5; i++) { console.log(i); // Saída: 0, 1, 2, 3, 4 }
+7.2 while
+A estrutura while repete um bloco de código enquanto uma condição for verdadeira.
+
+ 
+let contador = 0; while (contador < 5) { console.log(contador); contador++; }
+8. Requisições
+Requisições são utilizadas para comunicar-se com servidores web e obter ou enviar dados. Em JavaScript, podemos fazer requisições usando fetch.
+
+ 
+fetch('https://api.exemplo.com/dados') .then(response => response.json()) .then(data => console.log(data)) .catch(error => console.error('Erro:', error));
+Conclusão
+Este guia apresenta os conceitos básicos de lógica de programação e sua aplicação em JavaScript, abordando algoritmos, variáveis, constantes, funções, estruturas condicionais, estruturas de repetição e requisições. Compreender e dominar esses conceitos é fundamental para o desenvolvimento de aplicações eficientes e funcionais.

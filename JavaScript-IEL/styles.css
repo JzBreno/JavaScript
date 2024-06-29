@@ -1,0 +1,19 @@
+body > div{
+    display: flex;
+    flex-direction: row;
+    width: 90px;
+    height: 40px;
+    color: rgb(186, 255, 217);
+}
+
+
+.dia{
+    gap: 10px;
+    color: rgb(8, 8, 8);
+   
+}
+
+.mes{
+    
+    gap: 10px;
+}
