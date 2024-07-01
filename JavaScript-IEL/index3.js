@@ -1,2 +1,15 @@
-console.log("seu peso e bom: ", 2+2==5);
-document.write(`<h1>seu peso e bom: ${2+3==5} </h1>` );
+let mode 
+// let colorchar = "white"
+// switch(mode){
+//     case "dark":
+//         document.querySelector("body").style.backgroundColor = "#222222";
+//     break;
+// }
+
+// switch(colorchar){
+//     case "white":
+//         document.querySelector("body").style.color = "#ffffff";
+//     break;
+// }
+
+console.log(mode ? "Esta definida" : "Nao esta definida")
